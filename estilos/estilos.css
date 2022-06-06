@@ -11,43 +11,7 @@ body{
     color:black;
     font-family: 'Josefin Sans', sans-serif; 
 }
-header nav ul li a {
-    color: #EFEFEF;
-    text-decoration: none;
-    font-weight: bolder;
-    font-size: larger;
-    padding-left: 2rem;
-    padding-right: 1rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    border: 10 rem;
-    margin: 2 rem;
-    font-family: 'Josefin Sans', sans-serif;
-    font-size: 30px;
 
-}
-/* .naviniciologo{ 
-    color: black;
-    font-size: xx-large;
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: bolder;
-    padding-left: 5rem;
-    text-decoration: none;
-
-    no se como separar esto y ponerlo a la izquierda en forma de logo
-    
-        
-
-}*/
-ul {
-    list-style: none;
-}
-
-li {
-    display: inline-block;
-    font-family: 'Josefin Sans', sans-serif;
-    list-style: none;
-}
 
 .contenedor {
     width: 100%;
@@ -94,18 +58,27 @@ li {
     border-image-width: 10px;
     
 }
-.educationphoto{
-    height: 300px;
-    width: 500px;
-    align-content: center;
-    border-image: 20px;
-    
+.text-index-quote{
+    font-size: x-large;
+
+}
+.titles-index{
+    font-weight: bolder;
 }
 .educationphoto1{
-    height: 600px;
-    width: 600px;
-    align-content: center;
-    border-image:round;
+    
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1800px;
+ 
+    
+}
+/*nose como poner la imagen centrada */
+.educationphoto1{
+    height: 650px;
+    width: 650px;
+    justify-content: center;
+    
 }
 .contenedor .sidebar {
     grid-column: 3 / 4;
@@ -172,11 +145,13 @@ li {
     grid-area: footer;
     justify-content: right;
     text-align: right;
+    list-style: none;
 }
 .support-text{
     text-decoration: none;
     color: black;
     font-size: x-large;
+    list-style: none;
 }
 
 @media screen and (max-width: 768px) {
@@ -285,8 +260,10 @@ header nav ul li a {
 /* EXPERINCES */
 
 .contenido-experiences{
-    grid-area: contenido;
-    font-size: 25px;
+    display: flex;
+    justify-content: left;
+    flex-wrap:wrap;
+    column-gap: 100px;
     
 }
 .person-1-experiences{
@@ -310,12 +287,25 @@ header nav ul li a {
     font-size: 20px;
     list-style-type: circle;
     grid-area: footer-experiences;
+    
 }
 .list-footer-exp{
     font-size: x-large;
-    color: antiquewhite;
-    width: 1000px;
-    height: 110px;
+    color:#F66B0E;
+    width: 1800px;
+    height: 50px;
+    display: grid;
+    justify-content: center;
+    text-align: right;
+}
+.support-text-exp{
+    text-decoration: none;
+    font-size: x-large;
+    color: black;
+    display: grid;
+    justify-content: center;
+    text-align: right;
+    
 }
 
 /* OUR STORY */
@@ -337,5 +327,14 @@ header nav ul li a {
 
 }
 
-/* OUR STORY */
+.ourstory-main{
+    
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    column-gap: 100px;
+
+}
+
+
 
