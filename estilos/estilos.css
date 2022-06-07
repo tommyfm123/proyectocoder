@@ -75,8 +75,8 @@ body{
 }
 /*nose como poner la imagen centrada */
 .educationphoto1{
-    height: 650px;
-    width: 650px;
+
+    width: 100%;
     justify-content: center;
     
 }
@@ -179,6 +179,7 @@ body{
     display: flex;
     flex-wrap: wrap;
     column-gap: 80px;
+    color: antiquewhite;
 }
 
 .product-text{
@@ -242,6 +243,10 @@ header nav ul li a {
 
 }
 
+.contenido-product{
+    color: antiquewhite;
+    font-weight: bolder;
+}
 
 #footer-product{
     background: #F66B0E;
@@ -335,6 +340,5 @@ header nav ul li a {
     column-gap: 100px;
 
 }
-
 
 
